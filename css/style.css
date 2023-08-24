@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* navbar start */
+.navbar {
+    background-color: rgb(14, 111, 191);
+}
+
+.navbar-flex {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 100px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-flex img {
+    width: 150px;
+    flex-wrap: wrap;
+    opacity: .8;
+    margin-left: 50px;
+}
+
+.navbar-items {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-items a:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: .5s;
+}
+
+/* navbar end */
+
+/* welcome banner start */
+.header-brand {
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(239, 239, 239, 0.337);
+}
+
+.details,
+img {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-brand img {
+    width: 500px;
+}
+
+/* welcome banner end */
+
+/* about us start */
+.btn {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    align-items: center;
+    background-color: rgba(6, 72, 129, 0.908);
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.416);
+    color: rgb(237, 237, 237);
+}
+
+.about-us {
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.about-details {
+    padding: 30px;
+}
+
+.about-us-tour iframe {
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -50px;
+}
+
+/* about us end */
+
+/* take a tour start */
+.tour {
+    background-color: rgba(239, 239, 239, 0.337);
+}
+
+.tour-padding {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.about-us img {
+    width: 500px;
+}
+
+/* take a tour end */
+
+/* price section start*/
+.card-view {
+    display: inline-flex;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+.titles {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titles-about {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.cards {
+    margin-left: 50px;
+    width: 100%;
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.416);
+    padding-bottom: 0px;
+}
+
+.cards:hover {
+    box-shadow: 0px 0px 4px rgb(3, 95, 175);
+    transition-duration: .6s;
+    transform: scale(1.1);
+    background-color: rgb(6, 72, 129);
+    color: white;
+}
+
+.div-1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inner-p {
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.title-1 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.price-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.plan-title {
+    font-size: 25px;
+    color: gray;
+}
+
+.services-title {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+hr {
+    width: 10%;
+    height: 2px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(65, 146, 217);
+    margin-left: 10px;
+}
+
+.our-plan {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(6, 72, 129);
+    margin-bottom: 100px;
+}
+
+button {
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.908);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.416);
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.416);
+    color: rgb(6, 72, 129);
+}
+
+/* price section end */
+
+/* footer start */
+.footer-v1 {
+    background-color: rgba(239, 239, 239, 0.337);
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.col-md-3 {
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin-right: 20px;
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-list a:hover {
+    color: rgb(5, 125, 231);
+}
+
+.fa-copyright {
+    text-align: center;
+}
+
+span {
+    color: rgb(5, 125, 231);
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+
+    /* navbar start */
+    .navbar-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar-links {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-flex img {
+        width: 100px;
+        margin-left: 0;
+        margin-right: 60px;
+        margin-bottom: 10px;
+    }
+
+    /* header banner start */
+    .header-brand img {
+        width: 300px;
+        margin-top: -200px;
+    }
+
+    .header-brand {
+        flex-wrap: wrap;
+    }
+
+    /* about us start */
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-tour iframe {
+        width: 100%;
+        height: 300px;
+        margin: 10px 0;
+    }
+
+    /* take a tour start */
+    .about-us img {
+        width: 300px;
+    }
+
+    /* price section start */
+    .card-view {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+    }
+
+    .cards {
+        padding: 40px;
+        width: 70%;
+        margin: 10px;
+    }
+
+    .inner-p {
+        margin-left: 0;
+
+    }
+
+    .title-1 {
+        font-size: 24px;
+    }
+
+    .price-title {
+        font-size: 32px;
+    }
+
+    .plan-title {
+        font-size: 20px;
+    }
+
+    /* footer start */
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col-md-3 {
+        flex-basis: 100%;
+        max-width: 100%;
+
+        /* margin-bottom: 20px; */
+    }
+}
+
+/*  animation style */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar,
+.header-brand,
+.about-us,
+.tour,
+.card-view,
+.footer-v1 {
+    animation: fadeIn 1s ease-in-out;
+}
