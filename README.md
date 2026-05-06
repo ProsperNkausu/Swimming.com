@@ -1,6 +1,6 @@
-# Swimming.com
+# SwimHub-Academy-Website-Booking-System
 
-Swimming.com is a modern static website for a Lusaka-based swimming academy. It presents the academy's purpose, lesson programs, tour video, pricing plans, and booking contact path for children, adults, schools, and organizations.
+SwimHub-Academy-Website-Booking-System is a modern static website for a Lusaka-based swimming academy. It presents the academy's purpose, lesson programs, tour video, pricing plans, and booking contact path for children, adults, schools, and organizations.
 
 ## Project Structure
 
@@ -45,4 +45,4 @@ Then visit `http://localhost:8080`.
 
 ## Notes
 
-The current booking flow uses `mailto:support@swimacademy.com`. Replace this address in `index.html` and `js/app.js` when the academy has a final production contact email.
+The current booking flow uses `mailto:support@SwimHub.com`. Replace this address in `index.html` and `js/app.js` when the academy has a final production contact email.
